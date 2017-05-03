@@ -1,0 +1,17 @@
+{
+    "name": "hikari_no_yume/twitterbot",
+    "type": "library",
+    "description": "Twitter Bot framework for PHP 7.0",
+    "keywords": ["twitter", "bot", "twitterbot"],
+    "homepage": "https://github.com/hikari-no-yume/PHP7-Twitter-Bot",
+    "license": "AGPLv3",
+    "require": {
+        "php": ">=7.0",
+        "j7mbo/twitter-api-php": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hikari_no_yume\\TwitterBot\\": "."
+         }
+    }
+}
